@@ -7,9 +7,9 @@ This model is a CNN based only on the character level as charCNN [1]. It exploit
 </p>
 <p align="center">
   Jason Yosinski, Jeff Clune, Yoshua Bengio, and Hod Lipson. 
-  
+</p>
+<p align="center">
   How transferable are features in deep neural networks? 
-  
   NIPS 2014
 </p>
 
