@@ -5,13 +5,6 @@ This model is a CNN based only on the character level as charCNN [1]. It exploit
 <p align="center">
   <img src="http://yosinski.com/static/proj/convnet_transfer_lines_crop.png" width="400"/>
 </p>
-<p align="center">
-  Jason Yosinski, Jeff Clune, Yoshua Bengio, and Hod Lipson. 
-</p>
-<p align="center">
-  How transferable are features in deep neural networks? 
-  NIPS 2014
-</p>
 
 The code is rewritten under Tensorflow TF-Slim to be shorter and facilitate more easily the tranfer of deep networks' layers, as Inception-v3 [4]. 
 
