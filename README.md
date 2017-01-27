@@ -1,6 +1,8 @@
 # Transfer-Learning
 
-This model is a CNN based only on the character level as charCNN [1]. It exploit the benefit of deep structure for text understanding task as [3]. The first work of transfer a shallow CNN & distant supervision can be read at [5]. The aim of this model is to transfer a very deep (rather than a shallow) network and base only on character level without any feature-engineering at the word level [5].
+This model is a CNN based only on the character level as charCNN [1]. It exploit the benefit of deep structure for text understanding task as [3]. The first work of transfer a shallow CNN & distant supervision can be read at [5]. The aim of this model is to transfer a very deep (rather than a shallow) network and base only on character level without any feature-engineering at the word level [5]. This kind of transfer is depicted in [7]:
+
+![alt tag](http://yosinski.com/static/proj/convnet_transfer_lines_crop.png)
 
 The code is rewritten under Tensorflow TF-Slim to be shorter and facilitate more easily the tranfer of deep networks' layers, as Inception-v3 [4]. 
 
@@ -13,7 +15,8 @@ The evaluation is on small data set of Semval-2013 (2.3k/0.9k pos/neg tweets). T
 - [3] Alexis Conneau, Holger Schwenk, Loïc Barrault, Yann LeCun. Very Deep Convolutional Networks for Natural Language Processing. CoRR 2016
 - [4] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, Zbigniew Wojna. Rethinking the Inception Architecture for Computer Vision. Proceedings of IEEE Conference on Computer Vision and Pattern Recognition, (2016)
 - [5] Duyu Tang, Furu Wei, Bing Qin, Ting Liu, Ming Zhou. Coooolll: A Deep Learning System for Twitter Sentiment Classification. Proceedings of the 8th International Workshop on Semantic Evaluation (SemEval 2014)
-- [6] Twitter Sentiment Classification using Distant Supervision. Alec Go. Richa Bhayani. Lei Huang. Stanford
+- [6] Alec Go. Richa Bhayani. Lei Huang. Twitter Sentiment Classification using Distant Supervision. Stanford
+- [7] Jason Yosinski, Jeff Clune, Yoshua Bengio, and Hod Lipson. How transferable are features in deep neural networks? NIPS 2014
 
 ## Reference Source Codes
 
