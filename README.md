@@ -1,5 +1,3 @@
-# Transfer-Learning
-
 ## Model
 
 This model is a CNN based only on the character level as charCNN [1]. It exploit the benefit of deep structure for text understanding task as [3]. The first work of transfer a shallow CNN & distant supervision can be read at [5]. The aim of this model is to transfer a very deep (rather than a shallow) network and base only on character level without any feature-engineering at the word level [5]. This kind of transfer is depicted in [7]:
