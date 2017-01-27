@@ -2,7 +2,7 @@
 
 This model is a CNN based only on the character level as charCNN [1]. It exploit the benefit of deep structure for text understanding task as ResNet [2] and [3]. The code is rewritten under Tensorflow TF-Slim to control more easily and facilitate the tranfer deep networks' parameters as Inception-v3 [4]. The first work of transfer a shallow CNN can be read at [5].
 
-The evaluation data is small data set of Semval-2013 (2.3k/0.9k pos/neg tweets). The input is a big Twitter's emoticon data set [6] (1.6 M balanced pos/neg tweets).
+The evaluation data is small data set of Semval-2013 (2.3k/0.9k pos/neg tweets). The input is a big Twitter's emoticon data set (1.6 M balanced pos/neg tweets) [6] 
 
 ## Reference
 
