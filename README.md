@@ -17,6 +17,7 @@ The evaluation is on small data set of Semval-2013 (2.3k/0.9k pos/neg tweets). T
 
 ## Reference Source Codes
 
-- https://github.com/mhjabreel/CharCNN
+- https://github.com/scharmchi/char-level-cnn-tf
+- https://github.com/dennybritz/cnn-text-classification-tf
 - https://github.com/tensorflow/models/tree/master/resnet
 - https://github.com/tensorflow/models/tree/master/inception
